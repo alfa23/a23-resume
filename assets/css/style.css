@@ -22,6 +22,29 @@
     background-color: #333;
 }
 
+/* --------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* --------------------------------------Heading */
 
 header {
@@ -113,4 +136,56 @@ header {
 .hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/* --------------------------------------Footer */
+
+footer {
+    background-color: #333;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 1.1rem;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #3cb371;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 2rem;
+    height: 2rem;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #676767;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #3cb371;
+}
+
+#footer-details {
+    padding: 17px;
 }
