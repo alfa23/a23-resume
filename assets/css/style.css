@@ -14,12 +14,24 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
 .bg-color-work-history {
     background-color: #ee00ee;
 }
 
 .bg-color-contact {
     background-color: #fff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -37,6 +49,23 @@
 .ui-menu-color-download {
     background-color: #333;
 }
+
+.ui-menu-color-github {
+    background-color: #00f;
+}
+
+.ui-menu-color-interests {
+    background-color: #f00;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
 
 /* --------------------------------------Special paddings/margins/text */
 
@@ -361,6 +390,11 @@ button[type="submit"] {
     background-color: #3cb371;
 }
 
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
 /* --------------------------------------Media queries */
 
 @media(min-width: 992px) {
@@ -369,5 +403,12 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
-    }    
+    }
+    
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
