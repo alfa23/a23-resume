@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <script src="https://kit.fontawesome.com/ccd96dbbb9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Contact</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("Zx98FCwSnWrqVbGUz");
+        })();
+    </script>
 </head>
+
 <body>
     <header>
         <div class="row no-gutters">
@@ -27,22 +38,28 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer row">
                             <li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home"
+                                        aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
-                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
+                                        aria-hidden="true"></i><span>Resume</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o"
+                                        aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
-                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
+                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users"
+                                        aria-hidden="true"></i><span>Interests</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
-                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
+                                        aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
-                                <a href="assets/cv/pw-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                                <a href="assets/cv/pw-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i
+                                        class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
                     </div>
@@ -58,8 +75,10 @@
                 <div class="center-form">
                     <form action="">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-                        <textarea name="projectsummary" id="projectsummary" cols="30" rows="5" class="form-control" placeholder="Project description" required></textarea>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required>
+                        <textarea name="projectsummary" id="projectsummary" cols="30" rows="5" class="form-control"
+                            placeholder="Project description" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
@@ -75,8 +94,9 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Full Stack Web Dev and Graphic Artist. Skilled in everything from HTML to Heroku, Adobe CS and Procreate.
-                    The capacity for UI, UX and design thinking, graphic design and illustration. 
+                    Full Stack Web Dev and Graphic Artist. Skilled in everything from HTML to Heroku, Adobe CS and
+                    Procreate.
+                    The capacity for UI, UX and design thinking, graphic design and illustration.
                 </p>
             </div>
             <div class="col-sm-4">
@@ -132,6 +152,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
